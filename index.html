@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/72c24fb7e6.js" crossorigin="anonymous"></script>
+    <title>Grand Tetons</title>
+</head>
+
+<body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark gradient-custom position-fixed">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="#">Grand Tetons</a>
+
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars text-light"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Left links -->
+                <ul class="navbar-nav me-auto d-flex flex-row mt-3 mt-lg-0">
+                    <li class="nav-item text-center mx-2 mx-lg-1">
+                        <a class="nav-link active" aria-current="page" href="#top">
+                            <div>
+                            </div>
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item text-center mx-2 mx-lg-1">
+                        <a class="nav-link" href="#gallery">
+                            <div>
+        
+                            </div>
+                            Gallery
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown text-center mx-2 mx-lg-1">
+                        <a class="nav-link dropdown-toggle" href="#footer" id="navbarDropdown" role="button"
+                            data-mdb-toggle="dropdown" aria-expanded="false">
+                            <div>
+                               
+                            </div>
+                            Contact
+                        </a>
+                        <!-- Dropdown menu -->
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">book</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- Left links -->
+
+                <!-- Right links -->
+                <ul class="navbar-nav ms-auto d-flex flex-row mt-3 mt-lg-0">
+                    <li class="nav-item text-center mx-2 mx-lg-1">
+                        <a class="nav-link" href="#section1">
+                            <div>
+                            </div>
+                            About
+                        </a>
+                    </li>
+                    <li class="nav-item text-center mx-2 mx-lg-1">
+                        <a class="nav-link" href="#section4">
+                            <div>
+                                <span class="badge rounded-pill badge-notification bg-dark"></span>
+                            </div>
+                            History
+                        </a>
+                    </li>
+                </ul>
+                <!-- Right links -->
+
+                <!-- Search form -->
+                <form class="d-flex input-group w-auto ms-lg-3 my-3 my-lg-0">
+                    <input type="search" class="form-control" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-white" type="button" data-mdb-ripple-color="dark">
+                        Search
+                    </button>
+                </form>
+            </div>
+            <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+    <!-- back-ground-->
+    <div class="bg-image" style="background-image: url(static/background.jpg); height: 70vh"></div>
+    <!-- main section -->
+
+    <section class="bg-dark text-light p-4 p-lg-4 pt-lg-10 p-md-10 text-center text-sm-start shadow p-3 mb-0 bg-body">
+        <div class="container  bg-dark">
+            <div class="row-md col-sm">
+                <div class="d-md-flex bg-dark justify-content-evenly">
+                    <h1 id="section1">Location: Wyoming. The park includes approximately 310,000 acres, or 485 square miles. </h1>
+                    <img src="static/cora-leach-Z6Of9vBpY4E-unsplash.jpg" alt="" class="img-fluid col-lg-8 col-md-6">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- second panel -->
+    <section class="bg-dark text-light p-4 p-lg-4 pt-lg-10 p-md-10 text-center text-sm-start shadow p-3 mb-0 bg-body">
+        <div class="container bg-dark">
+            <div class="row-md col-sm">
+                <div class="d-md-flex bg-dark justify-content-evenly">
+                    <img src="static/victoria-dihua-xue-9PP6gqjQ1YY-unsplash.jpg" alt="" class="img-fluid col-lg-8 col-md-6">
+                    <h1>The park host approximately 3,885,230 guest a year.The highest number of recreation visits for one year in park history</h1><br>
+            </div>
+        </div>
+    </section>
+    
+    <!-- third section -->
+    <section class="bg-dark text-light p-4 p-lg-4 p-md-10 text-sm-start shadow p-3 mb-0 bg-body">
+        <div class="container bg-dark">
+            <div class="d-md-flex bg-dark">
+                <h1>The highest elevation of the park in 13,775 feet high. The second highest peak in Wyoming. The park extends from southern Alaska to northern New Mexico.</h1>
+                <img src="static/josh-gordon-6stZFAX36W0-unsplash.jpg" alt="" class="img-fluid col-lg-8 col-md-6">
+            </div>
+        </div>
+    </section>
+
+<!--fourth section -->
+
+    <section class="bg-light text-dark col-12">
+        <div class="container bg-light d-flex p-0">
+            <div class="d-md-flex bg-light">
+                <img src="static/james-fitzgerald-DErnRAdyczI-unsplash.jpg" alt="" class="col-8 col-sm-8 col-md-8 col-xs-12 d-md-flex ">
+                <h3 id="section4">Grand Teton National Park was established in 1929, Jackson Hole National Monument was created in 1943. The two units were combined to become the present Grand Teton National Park in 1950</h3>
+            </div>
+        </div>
+    </section>
+    <!-- fith section -->
+    <section class="bg-light text-dark col-12">
+        <div class="container bg-light d-flex">
+            <div class="bg-light d-md-flex">
+                <h2>The park is home to a many wild-life species including grizzly and black bears,bison,moose,elk and pronghorns! </h2>
+                <img class="d-flex col-8" src="static/cora-leach-kowlD5rb9wE-unsplash.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- sixth section -->
+    <section class="bg-light text-dark col-12 p5">
+        <div class="container bg-light d-flex">
+            <div class="bg-light d-md-flex">
+                <img src="static/elijah-hail-LLV7TGw-uGA-unsplash.jpg" alt="" class="d-flex col-8">
+                <h2 class="d-flex">The annual preciptiation on average,Jackson Hole receives just over 21 inches of precipitation each year, half of that is snow during the winter months. During the summer its an average of 80s while in the winter 30s are what to expect!</h2>
+            </div>
+        </div>
+    </section>
+    <!-- gallery -->
+    <section class="bg-dark text-light font-size-xlarge d-flex justify-content-center">
+        <h1 id="gallery">Gallery</h1>
+
+    </section>
+    <section class="bg-dark text-light col-12 p-3 d-flex justify-content-center ">
+        <div class="container bg-dark d-flex col-12 flex-direction-row justify-content-space-between">
+            <div class="bg-dark d-md-flex justify-content-evenly d-flex">
+                <img src="static/david-banning--Mwr8S4K46M-unsplash.jpg" alt="" class="d-flex col-4">
+                <img src="static/img1.jpg" alt="" class="d-flex col-4">
+                <img src="static/img2.jpg" alt="" class="d-flex col-4">     
+            </div>
+        </div>
+    </section>
+    <section class="bg-dark text-light col-12 p-3 d-flex justify-content-right ">
+        <div class="container bg-dark d-flex col-12 flex-direction-row justify-content-space-between">
+            <div class="bg-dark d-md-flex justify-content-evenly d-flex">
+                <img src="static/christian-ball-siLV5UzYhwg-unsplash.jpg" alt="" class="d-flex col-4">
+                <img src="static/cora-leach-YFs2fACDMR8-unsplash.jpg" alt="" class="d-flex col-4">
+                <img src="static/cora-leach-zEib_Ah46uo-unsplash.jpg" alt="" class="d-flex col-4">     
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-dark text-light col-12 p-3 d-flex justify-content-right ">
+        <div class="container bg-dark d-flex col-12 flex-direction-row justify-content-space-between">
+            <div class="bg-dark d-md-flex justify-content-evenly d-flex">
+                <img src="static/kayla-kozlowski-lbLsnD5cOdM-unsplash.jpg" alt="" class="d-flex col-4">
+                <img src="static/jonny-auh-bjDKATRGFsk-unsplash.jpg" alt="" class="d-flex col-4">
+                <img src="static/toan-chu-8dvphKlzJ40-unsplash (1).jpg" alt="" class="d-flex col-4">     
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="bg-light text-dark d-flex flex-direction-row">
+    
+        <div class="container d-flex flex-direction-row justify-content-evenly p-10 m-5">
+            <div class="bg-light d-flex flex-direction-column p-5 ">
+                <img src="static/campground_small_map_1.webp" alt="" class="col-2">
+                <div class="items">
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-phone"></i>Call Us: 800-fed-park</a></li>
+                        <li><a href="#"><i class="fa-solid fa-envelope">Email
+                                    Us: we-be-the-feds@fedicinni.com</i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i> FaceBook</a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

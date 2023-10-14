@@ -1,0 +1,27 @@
+*{
+   background-repeat: no-repeat;  
+    
+} 
+ 
+
+
+.btn {
+    padding: .45rem 1.5rem .35rem;
+  }
+  
+  .gradient-custom {
+    /* fallback for old browsers */
+    background: #f3ae36;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgb(252, 114, 1), rgb(245, 146, 71));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgb(10, 10, 10), rgba(0, 0, 0, 0.507))
+  }
+ul {
+  list-style: none;
+
+}
+
+
